@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+    background: #d8dbe2;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.navbar > div {
+    padding: 0 30px;
+    font-size: 20px;
+}
+
+.navbar .menu {
+    margin-right: auto;
+}
+
+.navbar .lang {
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* SOCIAL MEDIA */
+.media ul {
+    position: absolute;
+    bottom: 250px;
+    left: -140px;
+    transform: rotate(-90deg);
+    transition: 0.5s;
+
+}
+
+.media ul li {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 0 30px;
+    
+}
+.media ul li:hover {
+    color: #ffffff ;
+}
+
+/* TEXT */
+.text {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    transform: rotate(-90deg);
+}
+
+.text h1 {
+    font-size: 120px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: -10px;
+    
+}
+
+
+.text h1::after {
+    content: "Explore";
+    position: absolute;
+    top: 40px;
+    left: -80px;
+    color: #efde74;
+    z-index: -1;
+    font-size: 150px;
+    font-weight: 600;
+    letter-spacing: 8px;
+}
+
+.text h1:hover {
+    color: #ffffff ;
+} 
+
+.text h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.text p {
+    width: 200px;
+    font-size: 12px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+/* IMAGES */
+.image {
+    margin: 3rem 45rem;
+}
+.image .img{
+    max-width: 450px;
+    border-radius: 30px;
+}
+
+/* SPONSOR  */
+.sponsor {
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    text-align: center;
+}
+
+.sponsor img {
+    width: 200px;
+}
+
+.sponsor p {
+    margin-top: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+/* IMAGE */
+
+
+/* DISTORTION */
+.distortion {
+    width: 580px;
+    height: 720px;
+}
+
